@@ -10,9 +10,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Welcome to the S55 Website</h1>
-      <p>{message}</p>
+    <div className="flex flex-col items-center justify-center mt-20">
+      <h1 className="text-4xl font-bold text-blue-700">Welcome to Team S55</h1>
+      <p className="text-xl mt-4 text-gray-700 italic bg-blue-100 p-4 rounded shadow-md w-fit">
+        {message}
+      </p>
     </div>
   );
 };
