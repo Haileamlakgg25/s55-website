@@ -10,7 +10,7 @@ app.use(express.json()); // to parse incoming JSON requests
 
 // Basic route
 app.get('/', (req, res) => {
-  res.send('Hello from the backend!');
+  res.send('Helloo from the backend!');
 });
 
 // Start the server
