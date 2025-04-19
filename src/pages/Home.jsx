@@ -4,7 +4,7 @@ const Home = () => {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:5000')
+    fetch('https://teams55-backend.onrender.com')
       .then((response) => response.text())
       .then((data) => setMessage(data));
   }, []);
